@@ -21,14 +21,3 @@ class Radwa:
 
     def current_focus(self):
         return "Deep Learning, Grad-CAM Explainability & Automated Workflows"
-🧰 Skills & Stack
-AI / Machine Learning
-
-Frontend, Mobile & Web
-
-Tools & Automation
-
-⚡ How I Work
-📊 GitHub Activity
-🤝 Let's Connect
-I'm always up for a conversation about Computer Vision, AI systems, or full-stack projects. Feel free to reach out!
