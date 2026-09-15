@@ -19,5 +19,10 @@ class Radwa:
         self.role = "AI & CS Student | Tech Instructor"
         self.passions = ["Computer Vision", "Medical AI", "Full-Stack Dev"]
 
+        # Compact Tech Stack
+        self.ai = ["PyTorch", "OpenCV", "Grad-CAM", "ResNet-18", "NLP"]
+        self.dev = ["React", "React Native", "Flutter", "Tailwind", "Supabase"]
+        self.tools = ["n8n", "Telegram API", "Godot", "Figma"]
+
     def current_focus(self):
         return "Deep Learning, Grad-CAM Explainability & Automated Workflows"
