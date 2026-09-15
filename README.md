@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B192C,100:1E3E62&height=200&section=header&text=Radwa%20Ali&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20and%20Software%20Engineer&descAlignY=62&descScale=18" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B192C,100:1E3E62&height=180&section=header&text=Radwa%20Ali&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20and%20Software%20Engineer&descAlignY=62&descScale=18" width="100%" />
 
   <br />
 
@@ -17,15 +17,12 @@ class Radwa:
     def __init__(self):
         self.name = "Radwa Ali"
         self.role = "AI & CS Student | Tech Instructor"
-        self.passions = ["Computer Vision", "Medical AI", "Full-Stack Dev", "Teaching"]
-        
-        # Tech Stack integrated inside the class
-        self.tech_stack = {
-            "ai_and_ds": ["PyTorch", "OpenCV", "Torchvision", "Grad-CAM", "ResNet-18", "EfficientNet-B0", "NLP"],
-            "web_and_mobile": ["React", "React Native", "Flutter", "Tailwind CSS", "Supabase", "Vercel"],
-            "automation": ["n8n", "Telegram Bot API", "Google Sheets API", "GDScript"],
-            "design": ["Figma (Auto Layout, Wireframing, Prototyping)"]
-        }
+        self.passions = ["Computer Vision", "Medical AI", "Full-Stack Dev"]
+
+        # Compact Tech Stack
+        self.ai = ["PyTorch", "OpenCV", "Grad-CAM", "ResNet-18", "NLP"]
+        self.dev = ["React", "React Native", "Flutter", "Tailwind", "Supabase"]
+        self.tools = ["n8n", "Telegram API", "Godot", "Figma"]
 
     def current_focus(self):
-        return "Deep Learning, Grad-CAM Explainability, and Automated Workflows"
+        return "Deep Learning, Grad-CAM Explainability & Automated Workflows"
